@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#333333">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1,2">
+
+        <TableRow>
+            <TextView
+                android:text="@string/latitude_label"
+                android:textColor="#FFFFFF"
+                android:layout_margin="8dp"
+                android:layout_column="1"/>
+            <TextView
+                android:text="@string/longitude_label"
+                android:textColor="#FFFFFF"
+                android:layout_margin="8dp"
+                android:layout_column="2"/>
+        </TableRow>
+
+        <!-- Waypoint 1 -->
+        <TableRow>
+            <TextView
+                android:text="@string/waypoint1_label"
+                android:textColor="#FFFFFF"
+                android:layout_margin="8dp"/>
+            <EditText
+                android:id="@+id/edittext_wp1_latitude"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittext_border"
+                android:hint="@string/latitude_wp1"
+                android:inputType="numberDecimal"
+                android:textColor="#FFFFFF"/>
+            <EditText
+                android:id="@+id/edittext_wp1_longitude"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:hint="@string/longitude_wp1"
+                android:inputType="numberDecimal"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittext_border"
+                android:textColor="#FFFFFF"/>
+        </TableRow>
+
+        <!-- Waypoint 2 -->
+        <TableRow>
+            <TextView
+                android:text="@string/waypoint2_label"
+                android:textColor="#FFFFFF"
+                android:layout_margin="8dp"/>
+            <EditText
+                android:id="@+id/edittext_wp2_latitude"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:hint="@string/latitude_wp2"
+                android:inputType="numberDecimal"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittext_border"
+                android:textColor="#FFFFFF"/>
+            <EditText
+                android:id="@+id/edittext_wp2_longitude"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:hint="@string/longitude_wp2"
+                android:inputType="numberDecimal"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittext_border"
+                android:textColor="#FFFFFF"/>
+        </TableRow>
+
+        <!-- Waypoint 3 -->
+        <TableRow>
+            <TextView
+                android:text="@string/waypoint3_label"
+                android:textColor="#FFFFFF"
+                android:layout_margin="8dp"/>
+            <EditText
+                android:id="@+id/edittext_wp3_latitude"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:hint="@string/latitude_wp3"
+                android:inputType="numberDecimal"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittext_border"
+                android:textColor="#FFFFFF"/>
+            <EditText
+                android:id="@+id/edittext_wp3_longitude"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:hint="@string/longitude_wp3"
+                android:inputType="numberDecimal"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittext_border"
+                android:textColor="#FFFFFF"/>
+        </TableRow>
+
+        <!-- Waypoint 4 -->
+        <TableRow>
+            <TextView
+                android:text="@string/waypoint4_label"
+                android:textColor="#FFFFFF"
+                android:layout_margin="8dp"/>
+            <EditText
+                android:id="@+id/edittext_wp4_latitude"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:hint="@string/latitude_wp4"
+                android:inputType="numberDecimal"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittext_border"
+                android:textColor="#FFFFFF"/>
+            <EditText
+                android:id="@+id/edittext_wp4_longitude"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:hint="@string/longitude_wp4"
+                android:inputType="numberDecimal"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittext_border"
+                android:textColor="#FFFFFF"/>
+        </TableRow>
+
+        <!-- Altitude and Speed -->
+        <TableRow>
+            <TextView
+                android:text="@string/altitude_label"
+                android:textColor="#FFFFFF"
+                android:layout_margin="8dp"/>
+            <EditText
+                android:id="@+id/edittext_altitude"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:hint="@string/altitude"
+                android:inputType="numberDecimal"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittext_border"
+                android:textColor="#FFFFFF"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="@string/speed_label"
+                android:textColor="#FFFFFF"
+                android:layout_margin="8dp"/>
+            <EditText
+                android:id="@+id/edittext_speed"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:hint="@string/speed"
+                android:inputType="numberDecimal"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittext_border"
+                android:textColor="#FFFFFF"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_set"
+        android:text="@string/set_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

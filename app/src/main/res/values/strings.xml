@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">arayuz</string>
+    <!-- New strings for activity_waypoint_mission.xml -->
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="waypoint1_label">W1</string>
+    <string name="waypoint2_label">W2</string>
+    <string name="waypoint3_label">W3</string>
+    <string name="waypoint4_label">W4</string>
+    <string name="altitude_label">Altitude Value</string>
+    <string name="speed_label">Speed Value</string>
+    <string name="set_button">SET</string>
+    <string name="latitude_wp1">Latitude for Waypoint 1</string>
+    <string name="longitude_wp1">Longitude for Waypoint 1</string>
+    <string name="latitude_wp2">Latitude for Waypoint 2</string>
+    <string name="longitude_wp2">Longitude for Waypoint 2</string>
+    <string name="latitude_wp3">Latitude for Waypoint 3</string>
+    <string name="longitude_wp3">Longitude for Waypoint 3</string>
+    <string name="latitude_wp4">Latitude for Waypoint 4</string>
+    <string name="longitude_wp4">Longitude for Waypoint 4</string>
+    <string name="altitude">Altitude</string>
+    <string name="speed">Speed</string>
+
+</resources>
